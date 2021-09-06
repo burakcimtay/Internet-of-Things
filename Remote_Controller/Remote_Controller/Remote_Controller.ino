@@ -17,11 +17,11 @@ IRsend irsend(D1);             // IR Ledimizin bağlı olduğu digital pin (D1)
 #define ses_ac 0x80BF837C
 #define ses_kis 0x80BF9966
 
-char auth[] = "JnlPmLr9X5_z0MQWznA8bI5qXWj5BDs9";
+char auth[] = "Your Blynk Token";
 
 // Kendi WiFi Bilgilerini buraya yaz
-char ssid[] = "AirTies_Air5760_(2.4GHz)";
-char pass[] = "a2f7aEdE9D1Ab";
+char ssid[] = "WiFi Name";
+char pass[] = "Password";
 
 int blynk_V1;    
 int blynk_V2;
